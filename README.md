@@ -39,3 +39,5 @@
 ### To be completed
 + Scrapping data of tv-shows
 + Slight modifications in Frontend 
++ Languages of the movies,tv-shows
++ Where to watch the movie(OTT platforms)
