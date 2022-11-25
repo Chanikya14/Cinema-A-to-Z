@@ -1,43 +1,45 @@
 # Cinema-A-to-Z
-:zap: Inventio
+:zap:Inventio
 ## About
-+ We built a user-friendly website which aid the user with rating,reviews,cast,..etc
++ We built a user-friendly website which aid the user with Rating, Reviews, Cast,..etc
 + It is one solution for every movie,shows and animes.
 
-## Tech
-+ PHP 
-+ HTML
-+ CSS
-+ PYTHON
-
 ## How to Run the Project
-+ Install phpMyAdmin, create a database with name **login_sample_db**
-+ You should import the *sql file* into your local machine for the database
-+ For viewing **php files** in browser, you can use *XAMPP/MAMP*
-+ After the above steps, you would be directed to the *login page* of website
++ Install [**XAMPP**](https://www.apachefriends.org/download.html) and run **Apache and MySQL server**.
++ Place **php** folder in **XAMPP/htdocs**
++ Enter **localhost** in **Browser** and enter into **phpMyAdmin**
++ **Import** **login_sample_db.sql** using **import** option in phpMyAdmin
++ Now on entering 'localhost/php' it will redirect to **Login Page** of our website
++ User should register(if not registered) or Login(with registered credentials) and user can **search** with titles.
 
 ## Features
-+ The Navbar consists of liked,watched,Watchlist,search to assist the user
++ The Navbar consists of Liked, Watched, Watchlist,search to assist the user
 + To logout, you can simply click logout button which would be hanging at the rightmost corner
+
 ### Sign-up and Login
-+ You can register if you didn't have a account
-+ Username and Password can be anything you wish
-+ If you already have an account, you can login with the credentials
++ User can register if user didn't have a account
++ Username and Password can be anything user wish
++ If user already have an account, user can login with the registered credentials
+
 ### Search
-+ You can get info of any movie/show/anime by simply entering any part of the title
-+ Just a brief data would be shown , you can get more info by clicking **view** button
-+ In the redirected page, many options are available to you like add to watchlist,watched,liked,..
++ You can get info of any movies/tv-shows/anime by simply entering any part of the title
++ Just a brief data would be shown , user can get more info by clicking **View** button
++ In the redirected page, many options are available to user like add to Watchlist,Watched,Liked,..
+
 ### Liked page
 + You can see the list of all liked movies here
-+ There is also dislike option along with the like button 
-### Watchlist
-+ You can find the movies which you have added to your watchlist 
-+ You can also remove the movie from the list by clicking **remove** button 
-### Watched
-+ All the watched movies of the user can be found here
++ There is also **Dislike** button along with the **Like** button 
 
-### To be completed
-+ Scrapping data of tv-shows
-+ Slight modifications in Frontend 
-+ Languages of the movies,tv-shows
-+ Where to watch the movie(OTT platforms)
+### Watchlist
++ User can find the movies/tv-shows/anime which user have added to your watchlist 
++ User can also remove the movies/tv-shows/anime from the list by clicking **Remove** button
+
+### Watched
++ All the watched movies/tv-shows/anime of the user can be found here
+
+## Tech Info
++ PHP(Framework and Backend)
++ HTML(User Interface)
++ CSS(User Interface)
++ PYTHON(Web Scraping)
++ MySQL(Database)
